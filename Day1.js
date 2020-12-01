@@ -3,7 +3,7 @@ var puzzleInput = [ 1130, 1897, 1850, 1218, 1198, 1761, 1082, 1742, 1821, 1464, 
 
 for(const currentValue of puzzleInput){
   const amountShortOf2020 = 2020-currentValue;
-  const theMissingAmountIsInTheArray = numbers.includes(amountShortOf2020);
+  const theMissingAmountIsInTheArray = puzzleInput.includes(amountShortOf2020);
 
   if(theMissingAmountIsInTheArray) {
     console.log({
